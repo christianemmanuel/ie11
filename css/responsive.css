@@ -1,0 +1,700 @@
+@media only screen  and (max-width: 1200px) {
+	.main_footer {
+		height: auto;
+    	padding: 50px 0;
+	}
+	.main_footer .flexbox_container_center {
+		float: none;
+	    -webkit-justify-content: left;
+	    justify-content: left;
+	    -webkit-align-items: left;
+	    align-items: left;
+	}
+	.main_footer .flexbox_container_center.pull-right {
+		float: none !important;
+	}
+	.footer_nav {
+		margin-left: 0;
+    	margin: 35px 0;
+    	overflow: hidden;
+	}
+	.footer_address {
+	    font-size: 0;
+	    margin-top: 10px;
+	    padding-top: 25px;
+	}
+	.portfolioFacade_wrapper .flex_child.flexbox_grid_3:nth-child(3n) {
+	    position: relative;
+	    left: 0;
+	}
+}
+@media only screen  and (max-width: 1024px) {
+	h1 {
+	    font-size: 120px;
+	}
+	h2 {
+	    font-size: 65px;
+	}
+	h3 {
+	    font-size: 45px;
+	}
+	h5 {
+	    font-size: 22px;
+	}
+	h3.georgia {
+	    font-size: 37px;
+	}
+	h4.georgia {
+	    font-size: 25px !important;
+	}
+
+	/***************************************************/
+	/******************MAIN BANNER**********************/
+	/***************************************************/
+    .main-header a.logo {
+        width: 75px;
+        height: 95px;
+        background-size: 75px;
+    }
+    .main-header.subpage-header a.logo {
+	    width: 63px;
+	    height: 95px;
+	    background-size: 63px;
+	    top: 0;
+	}
+    .main-header a.link_title {
+        font-size: 14px;
+        margin-top: 37px;
+    }
+    .main-header strong, b {
+        font-size: 16px;
+    }
+    .hamburger_menu{
+        margin-top: 29px;
+    }
+    .hamburger_menu span:before {
+        top: -8px;
+    }
+    .hamburger_menu span:after {
+        top: 8px;
+    }
+	/* for sticky nav */
+    .main-header.sitcky-header {
+        height: 85px;
+    }
+    .main-header.sitcky-header a.logo {
+        width: 54px;
+        height: 66px;
+        background-size: 54px;
+    }
+    .main-header.subpage-header.sitcky-header a.logo {
+	    width: 44px;
+	    height: 66px;
+	    background-size: 44px;
+	    top: 9px;
+    }
+    .main-header.sitcky-header .hamburger_menu {
+        margin-top: 23px;
+    }
+    .main-header .toggle_dropdown {
+        margin-top: 37px;
+    }
+    .main-header.subpage-header.sitcky-header .toggle_dropdown {
+	    margin-top: 31px;
+	}
+    .toggle_dropdown a.btn_dropdown_trigger {
+    	font-size: 27px;
+    }
+    .body-dropdown {
+        padding-top: 68px;
+    	padding-bottom: 30px;
+    }
+    .body-dropdown ul.subnav_links a {
+    	font-size: 16px;
+    }
+	/* for header content */
+    .main-banner-intro {
+	    bottom: -30px;
+	}
+	.main-banner-intro h3.georgia:after {
+		width: 474px;
+	}
+	
+	.homepage_arrow {padding: 55px 25px;}
+	.blurb p {font-size: 24px;}
+	
+	/***************************************************/
+	/*************Portfolio Facade Page*****************/
+	/***************************************************/
+	.wrapper_innerpage {
+	    margin-top: 185px;
+	}
+	.main_header_innperpage {
+	    margin-bottom: 80px;
+	}
+	.portfolioFacade_detail span.proj-about-title {
+		width: 100px;
+		font-size: 24px;
+	}
+	.portfolioFacade_detail span.proj-about-detail {
+		font-size: 25px;
+	    padding-left: 111px;
+	}
+	.face_treatment_content_section {
+	    padding: 50px 0;
+	}
+	.face_treatment_content_section img {
+		max-width: 130px;
+	}
+	.portfolioFacede_say img {
+		max-width: 145px;
+	}
+	.portfolioFacede_say_detail {
+		padding: 70px;
+	}
+	.portfolioFacede_say {
+		margin-top: 45px;
+	}
+	/***************************************************/
+	/******Persoanal Capabilities Facilities Page*******/
+	/***************************************************/
+	.capabilities_cards_wrapper .flexbox_grid_20 {
+	    width: 33.33%;
+	} 
+	.capabilities_cards_wrapper .card img {
+		width: 100%;
+	}
+	.capabilities_cards_wrapper .flex_child.flexbox_grid_20:nth-child(2), 
+	.capabilities_cards_wrapper .flex_child.flexbox_grid_20:nth-child(4), 
+	.capabilities_cards_wrapper .flex_child.flexbox_grid_20:nth-child(7), 
+	.capabilities_cards_wrapper .flex_child.flexbox_grid_20:nth-child(9) {
+	    -webkit-transform: translateY(0);
+	    -moz-transform: translateY(0);
+	    -o-transform: translateY(0);
+	    -ms-transform: translateY(0);
+	    transform: translateY(0);
+	}
+	.capabilities_section {
+	    padding: 70px 0;
+	    padding-bottom: 80px;
+	    margin-top: 80px;
+	}
+	.capabilities_cards_wrapper {
+	    margin-top: 40px;
+	}
+	.blog_body .blog_card_container {
+	    margin-bottom: 60px;
+	}
+	.load_more_blog {
+	    padding: 35px 0;
+	}
+	.aboutHenry_body .flexbox_grid_40, 
+	.aboutHenry_body .flexbox_grid_60 {
+		width: 100%;
+	}
+	.aboutHenry_body .flexbox_grid_60 {
+	    padding-right: 30px;
+	    left: 0;
+	}
+	.aboutHenry_body img {
+		margin-top: 40px;
+	}
+	.main_header_innperpage.main_header_qoute h4.georgia {
+	    padding-left: 27px;
+	}
+}
+@media only screen  and (max-width: 768px) {
+	.main-banner .showreel_bg video {
+		display: none;
+	}
+	.container {
+	    padding-left: 30px;
+    	padding-right: 30px;
+	}
+	.img_banner.preconstruction_banner img {
+	    padding-left: 30px;
+	}
+	.wrapper_innerpage {
+	    margin-top: 168px;
+	}
+	/* homepage */
+	h1 {
+		font-size: 95px;
+	}
+	h2 {
+	    font-size: 45px;
+	}
+	h3 {
+	    font-size: 35px;
+	}
+	h3.georgia {
+	    font-size: 33px;
+	}
+	h4.georgia {
+	    font-size: 21px !important;
+	}
+	.link_title strong,
+	.link_title b {
+		display: none;
+	}
+	.main-banner-intro h3.georgia i {
+	    font-size: 20px;
+	}
+	.main-banner-intro {
+	    bottom: -24px;
+	    padding-right: 30px;
+	}
+	.main-banner-intro h3.georgia {
+	    padding-bottom: 16px;
+	}
+	.main-banner-intro h3.georgia:after {
+		height: 19px;
+	    width: 390px;
+	}
+ 	.fiveProjectBlocks_section .flexbox_grid_3 {
+	    width: 50%;
+	}
+	.projectBlocks_content {
+	    height: 400px;
+	}
+	.projectBlocks_content .projectBlocks_detail,
+	.projectBlocks_content .projectBlocks_arrow {
+		-webkit-transform: translate3d(0, 0, 0);
+	    -moz-transform: translate3d(0, 0, 0);
+	    -webkit-transform: translate3d(0, 0, 0);
+	    -ms-transform: translate3d(0, 0, 0);
+	    transform: translate3d(0, 0, 0);
+	    opacity: 1;
+	}
+	.projectBlocks_content .projectBlocks_detail h3.georgia {
+	    margin-bottom: 10px;
+	   	font-size: 27px;
+	}
+	.blurb {
+	    line-clamp: 12;
+	    -webkit-line-clamp: 12;
+	    -moz-line-clamp: 12;
+	    -o-line-clamp: 12;
+	}
+	.blurb p {
+	    font-size: 22px;
+	}
+	.footer_img {
+		margin-bottom: 10px;
+	}
+	.footer_nav {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.footer_nav ul li {
+		font-size: 17px;
+	    margin-left: 0;
+	    display: block;
+	}
+	.footer_nav ul li a {
+	    text-align: left;
+	    line-height: 2.1em;
+	    display: block;
+	}
+	.footer_address ul li {width: 100%;}
+	.footer_address ul li:nth-child(2n) {
+		margin-top: 8px;
+	}
+	.footer_address ul li:nth-child(2n) small {
+		display: block;
+	}
+	.footer_address span.copyright {margin-top: 10px;}
+	.main_footer .flexbox_container_center:first-child {
+		width: 100%;
+	}
+	.main_footer .flexbox_container_center {
+		width: 50%;
+	    display: inline-block;
+	    float: left;
+	}
+	/***************************************************/
+	/*************Portfolio Facade Page*****************/
+	/***************************************************/
+	.projectBlocks_content .projectBlocks_detail {
+		background-color: rgba(0, 174, 239, 0.7);
+	}
+	.main_header_heading {
+		margin-bottom: 20px;
+	}
+	.main_header_innperpage {
+		margin-bottom: 50px;
+	}
+	.portfolioFacade_wrapper .projectBlocks_content {
+	    height: auto;
+	}
+	.portfolioFacade_detail span.proj-about-title {
+	    width: 75px;
+	    font-size: 20px;
+	}
+	.portfolioFacade_detail span.proj-about-detail {
+	    font-size: 21px;
+	    padding-left: 85px;
+	}
+	.face_treatment_content_section {
+	    padding: 40px 0;
+	}
+	.face_treatment_content_section .flex_grid_one,
+	.face_treatment_content_section .flex_grid_auto {
+	    -webkit-flex: 0 0 100%;
+	    -moz-flex: 0 0 100%;
+	    -ms-flex: 0 0 100%;
+	    flex: 0 0 100%;
+	}
+	.face_treatment_content_section .flex_grid_auto {
+		text-align: center;
+		margin-top: 35px;
+	}
+	.face_treatment_content_section .facade_detail_p1 {
+		padding-right: 0;
+	}
+	.portfolioFacede_say {
+		padding-left: 0;
+	}
+	.portfolioFacede_say_detail {
+	    padding: 50px 20px;
+	}
+	.portfolioFacede_say img {
+		display: none;
+	}
+	.portfolioFacede_say_detail h4.georgia:before {
+		position: absolute;
+		display: block;
+		content: "";
+		background-image: url("../images/quote.png");
+		background-repeat: no-repeat;
+	    width: 120px;
+	    height: 99px;
+	    background-size: 120px;
+	    top: -22px;
+	    left: 0;
+	    z-index: -1;
+	}
+	.capabilities_cards_wrapper .flexbox_grid_20 {
+	    width: 50%;
+	}
+	.capabilities_section {
+	    padding: 50px 0;
+	    padding-bottom: 50px;
+	    margin-top: 50px;
+	}
+	.state_facilities_detail {padding: 40px;}
+		.state_facilities_detail h
+		.state_facilities_detail h4.georgia {
+    margin-bottom: 30px;
+	}
+
+	.library_body .flexbox_grid_3 {
+	    width: 50%;
+	}
+	.blog_body .blog_card_container {
+	    margin-bottom: 40px;
+	}
+	.load_more_blog {
+	    padding: 20px 0;
+	}
+	.blog_card_container a.readmore {font-size: 25px;}
+	.blog_card_container .line_bottom {
+	    width: 60px;
+	}
+	.blog_card_container h5.georgia {
+	    margin: 8px 0 15px 0;
+	}
+	.playpause {
+	    width: 90px;
+	    height: 90px;
+	    background-size: 90px;
+	}
+	.video_content {
+	    padding: 20px 0;
+	}
+	.contactUs_detail h5 {
+	    font-size: 27px;
+	}
+	img.scroll-delay-y {
+		right: 20px;
+	    max-width: 400px;
+	    position: absolute !important;
+	    transform: none !important;
+	}
+	.preconstructBudgeting_section .flexbox_grid_50:first-child {
+	    border-bottom: 1px solid #cacaca;
+	    margin-bottom: 20px;
+	    padding-bottom: 20px;
+	}
+	.preconstructBudgeting_section .flexbox_grid_50 {
+	    width: 100%;
+	}
+	.ol-listing {
+	    padding: 20px;
+	}
+	.face_treatment_content_section.preconstructBudgeting_section {
+		padding-bottom: 20px;
+	}
+}
+@media only screen  and (max-width: 620px) {
+	h1 {
+	    font-size: 75px;
+	}
+	h5 {
+	    font-size: 18px;
+	}
+	h2 {
+	    font-size: 33px;
+	}
+	h3 {
+	    font-size: 28px;
+	}
+	h3.georgia {
+	    font-size: 29px;
+	}
+	p,
+	.ol-listing ul li {
+	   font-size: 16px;
+	}
+	.main-header {
+		top: 10px;
+	}
+	.link_title span {
+		display: none;
+	}
+	.link_title i {
+	    font-size: 35px;
+    	line-height: 0.6em;
+	}
+	.main-banner-intro {
+	    bottom: -20px;
+	    padding-right: 20px;
+	}
+	.main-banner-intro h1 {
+		margin-top: -5px;
+	}
+	.main-banner-intro h3.georgia {
+		padding-bottom: 12px;
+	}
+	.main-banner-intro h3.georgia:after {
+	    height: 16px;
+	    width: 320px;
+	}
+	
+	.homepage_arrow {
+	    padding: 30px 25px;
+	    background: #f9f9f9;
+	    border-bottom: 1px solid #ececec;
+	}
+	.homepage_arrow img {
+	    max-width: 28px;
+	    position: relative;
+	    top: 3px;
+	}
+	.fiveProjectBlocks_section .flexbox_grid_3 {
+	    width: 100%;
+	    margin-bottom: 7px;
+	}
+	.fiveProjectBlocks_section .flexbox_grid_3:last-child {
+		margin-bottom: 0;
+	}
+	.projectBlocks_content {
+	    height: 315px;
+	}
+	.blurb {
+		padding: 35px 20px !important;
+	}
+	.blurb p {
+	    font-size: 20px;
+	}
+	.projectBlocks_content .projectBlocks_detail h3.georgia {
+		font-size: 25px;
+	}
+	.footer_nav {
+		text-align: center;
+	}
+	.main-header .toggle_dropdown {
+	    margin-top: 40px;
+	}
+	.wrapper_innerpage {
+	    margin-top: 145px;
+	}
+	.toggle_dropdown a.btn_dropdown_trigger {
+	    font-size: 24px;
+	}
+	i.arrow_down {
+		background-size: 14px;
+	}
+	.body-dropdown {
+	    padding: 60px 25px 20px 40px;
+	}
+	.main_header_innperpage {
+	    margin-bottom: 40px;
+	}
+	.sidebar-menu .hamburger_menu {
+	    top: 10px;
+    	right: 0;
+	}
+	.portfolioFacede_say_detail .author {
+	    margin-top: 20px;
+	}
+	.capabilities_cards_wrapper .flexbox_grid_20 {
+	    width: 100%;
+	} 
+	.state_facilities_detail {
+	    padding: 30px;
+	    margin-top: -70px;
+	}
+	.state_facilities_detail h4.georgia {
+	    margin-bottom: 25px;
+	}
+	.library_body .flexbox_grid_3 {
+	    width: 100%;
+	}
+	.capabilities_cards span.category {
+	    height: 41px;
+	    font-size: 24px;
+	}
+	.load_more_blog {
+	    padding: 15px 0;
+	}
+	.contactUs_detail {
+		padding-bottom: 10px;
+	}
+	img.scroll-delay-y {
+	    display: none;
+	}
+	.main-video-wrapper {
+	    margin: 30px 0;
+	}
+	.main_header_innperpage.main_header_qoute h4.georgia {
+		padding-left: 20px;
+	}
+	.main_header_innperpage.main_header_qoute h4.georgia:before {
+		width: 5px;
+	}
+}
+@media only screen  and (max-width: 480px) {
+	.container {
+	    padding-left: 20px;
+    	padding-right: 20px;
+	}
+	.img_banner.preconstruction_banner img {
+	    padding-left: 20px;
+	}
+	.main-banner-intro h3.georgia i {
+	    font-size: 18px;
+	}
+	.sidebar-menu .sidebar_links ul li a {
+		font-size: 25px;
+	}
+	.sidebar-menu .sidebar_links ul li .children {
+	    margin: 8px 0 18px 15px;
+	}
+	.sidebar-menu .sidebar_links ul li .children li {margin-bottom: 8px;}
+	.sidebar-menu .sidebar_links ul li .children li a {
+		font-size: 19px;
+	}
+	.main-header.subpage-header a.logo {
+	    width: 50px;
+	    height: 76px;
+	    background-size: 50px;
+	    top: 9px;
+	}
+	.main-header a.logo {
+	    width: 58px;
+	    height: 74px;
+	    background-size: 58px;
+	    top: 8px;
+	}
+	h1 {
+	    font-size: 60px;
+	}
+	h3.georgia {
+	    font-size: 27px;
+	}
+	h4.georgia {
+	    font-size: 20px;
+	}
+	.main-banner-intro {
+	    bottom: -15px;
+	}
+	.main-banner-intro h3.georgia {
+	    padding-bottom: 8px;
+	}
+	.main-banner-intro h3.georgia:after {
+	    height: 12px;
+	    width: 275px;
+	}
+	.sidebar-menu {
+		width: 100%;
+		padding: 35px 25px;
+	}
+	.projectBlocks_content .projectBlocks_arrow {
+		left: 20px;
+	}
+	.main_footer .flexbox_container_center {
+		display: block;
+	}
+	.main_footer .flex_child {
+		display: block;
+	}
+	.footer_nav {
+		display: none;
+	}
+	.footer_nav ul li {
+	    font-size: 14px;
+	    margin-left: 0;
+	    display: inline-block;
+	    text-align: left;
+	    float: left;
+	    width: 50%;
+	}
+	.footer_address {
+		margin-top: 20px;
+		padding-left: 0;
+	}
+	.footer_address:before {
+		right: auto;
+	}
+	.main_footer .flexbox_container_center {
+		width: 100%;
+		float: none;
+	}
+	.footer_address ul li {
+	    width: 50%;
+	} 
+	.footer_address ul li:nth-child(2n) {
+		margin-top: 0;
+	}
+	.footer_address span.copyright {
+	    margin-top: 30px;
+	}
+	.portfolioFacade_detail ul li {
+	    margin-bottom: 7px;
+	} 
+	.portfolioFacade_detail span.proj-about-title {
+	    width: 65px;
+	    font-size: 18px;
+	}
+	.portfolioFacade_detail span.proj-about-detail {
+	    font-size: 19px;
+	    padding-left: 75px;
+	}
+	.face_treatment_content_section {
+	    padding: 30px 0;
+	}
+	.face_treatment_content_section img {
+	    max-width: 100px;
+	}
+	.portfolioFacede_say {margin-top:35px;}
+	.state_facilities_detail {
+	    padding: 25px 0 0 0 !important;
+	    margin-top: 0;
+	}
+	.playpause {
+	    width: 60px;
+	    height: 60px;
+	    background-size: 60px;
+	}
+}
